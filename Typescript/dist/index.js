@@ -4,5 +4,12 @@ function greet(name) {
     return `Hello, ${name}!`;
 }
 console.log(greet("world"));
-const username = "Alice";
+// Types Inference  
+let username = 'hello';
+username = 'hi';
+// Types Annotation
+let age = 40;
+//Union
+let apiStatus = 'pending';
+apiStatus = 'accepted';
 //# sourceMappingURL=index.js.map
