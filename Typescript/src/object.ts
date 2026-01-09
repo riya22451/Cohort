@@ -43,3 +43,13 @@ const updateItem=(updates:Partial<Item>)=>{ // Required keyword bhi hota h jisme
     console.log(updates)
     // if we provide empty object also it will not give error
 }
+
+type Chai={
+    name:string,
+    price:number,
+    isHot:boolean,
+    ingredients:string[]
+}
+type BasicChaiInfo=Pick<Chai,'name'|'price'> // Pick se hum specific properties ko select kr skte hai
+
+type ChaiWithoutIngredients=Omit<Chai,'ingredients'> // Omit se hum specific properties ko hata skte hai
