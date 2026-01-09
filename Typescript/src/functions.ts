@@ -56,3 +56,10 @@ type MasalaChai={
     spiceLevel:number
 }
 type Chai=MasalaChai| ChaiOrder
+
+
+function orderChaiType(type?:string){ // optional parameter
+
+}
+function prepareChai(size:string="medium"){ // default parameter
+}
