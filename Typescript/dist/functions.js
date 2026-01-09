@@ -42,4 +42,8 @@ function serveOrder(chai) {
     }
     return `Serve custom chai ${chai}`;
 }
+function orderChaiType(type) {
+}
+function prepareChai(size = "medium") {
+}
 //# sourceMappingURL=functions.js.map
