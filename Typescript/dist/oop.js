@@ -37,4 +37,19 @@ class ModernChai {
 const chaiInstance = new ModernChai();
 chaiInstance.flavor = "lemon";
 console.log(chaiInstance.flavor);
+class StaticChai {
+    flavor;
+    static shopName = 'Static Chai Shop';
+    constructor(flavor) {
+        this.flavor = flavor;
+    }
+}
+console.log(StaticChai.shopName);
+class Beverage {
+}
+class LemonTea extends Beverage {
+    make() {
+        console.log("Making Lemon Tea");
+    }
+}
 //# sourceMappingURL=oop.js.map
